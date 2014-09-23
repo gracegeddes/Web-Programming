@@ -1,0 +1,327 @@
+
+/* some content from below was adapted from w3schools.com and original page adapted from week1 class webpage */
+/* 7 days font from www.fontaddicts.com, and Opensans-Regular from www.google.com/fonts#UsePlace:use/Collection:Open+Sans*/
+
+@font-face 
+    {
+    font-family: '7 days oblique';
+    src: url('fonts/7daysoblique.ttf') format('truetype');
+    }
+
+@font-face
+    {
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    }
+
+body
+    {
+	color:black;
+	font-family: 'Museo500', 'Museo500FF', Arial;
+    }
+
+header
+    {
+	height:250px;
+	padding:0px;
+	text-align: center;
+    }
+
+.paddedDiv
+	{
+	padding: 15px 0px 0px 0px;
+	}
+	
+h1
+    {
+	text-align:center;
+	font-family: '7 days oblique';
+    min-width: 10em;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5em;
+    width: auto;
+    }
+
+h2
+    {
+	text-align: center;
+	font-family: '7 days oblique';
+    }
+
+h3
+    {   
+    text-align: left;
+    font-family: '7 days oblique';
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 900;
+    color: #FF0000 ;
+    }
+
+h4
+    {
+	text-align: center;
+	font-family: '7 days oblique';
+    font-size:18px;
+    }
+
+h5
+    {
+    text-align: left;
+    font-family: '7 days oblique';
+    font-size: 11px;
+    text-decoration: underline;
+    font-weight: 900;
+    }
+
+h6
+    {
+    /*margin-before: 0.5em;
+    margin-after: 0.5em;*/
+    font-family: 'OpenSans-Regular';
+    font-weight: 100;
+    font-size: 12px;
+    text-align: left;
+	}
+
+h9
+	{
+	font-size: 13px;
+	padding: 0px 10px 0px 10px;
+	}
+	
+	
+.syn
+    {
+	text-align: right;
+    font-size: 11px;
+	text-align: justify;
+	padding: 1px 1px 20px 20px;
+    font-family: 'OpenSans-Regular';
+    }
+
+table, th, td
+    {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    }
+	
+form    
+    {
+    
+    /*min-width: 650px;*/
+    float: left;
+    line-height: 1.5em;
+    background-color: lightgrey;
+    font-family: OpenSans-Regular;
+    }
+
+.subTotalBox
+	{
+	width: 60px;
+	}
+
+.totalBox
+	{
+	width: 60px;
+	float:right;
+	}
+	
+.totalPrice
+	{
+	text-align:right;
+	display:none;
+	padding: 5px 4px 0px 0px;
+	}
+	
+.posterimg
+    {
+    padding-right: 20px;
+    float: left;
+    }
+
+.posterfront
+    {
+    padding: 1em;
+    }
+
+.booknow
+    {
+    float: right;
+    }   
+
+/*normal colour*/
+a:link  
+    {
+    color: white;
+    }
+
+/* when clicked*/
+a:visited 
+    {
+    color: white;
+    }
+
+/* mouse on link */
+a:hover 
+    {
+    color: lightgrey;
+    }
+ 
+.bookingDiv
+    {
+    text-align: left;
+    display: none;
+    }
+
+.bookingDiv2
+    {
+    text-align: left;
+    }
+
+option
+    {
+    width: 9em;
+    text-align: center;
+    }
+
+
+span
+    {
+    margin-left: 1em;
+	padding: 0px 20px 0px 0px;
+	font-size: 14px;
+    }
+
+select
+    {
+    text-align: center;
+    width: 10em;
+    }
+
+.para
+    {
+	background-color:lightgrey;
+	opacity:0.9;
+	height: auto;
+	margin-left: auto;
+	margin-right:  auto;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	padding: 10px 10px 10px 10px;
+    width: auto;
+    min-width: 15em;
+    max-width: 51.5em;
+    text-align: center;
+    }
+
+.para2
+    {
+    background-color:lightgrey;
+    opacity:0.9;
+    margin-left: auto;
+    margin-right:  auto;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    max-width: 35em;
+    text-align: center;
+    }
+
+.para3
+    {
+	background-color:lightgrey;
+    opacity:0.9;
+    height: auto;
+    margin-left: auto;
+    margin-right:  auto;
+    margin-bottom: 5em;
+    margin-top: 1.5em;
+    padding: 12px 12px 12px 12px;
+    width: auto;
+    min-width: 500px;
+    max-width: 900px;
+    text-align: center;
+    }
+
+.aboutus
+    {
+    text-align: justify;
+    font-family: 'OpenSans-Regular';
+    font-weight: 100;
+    font-size: 12px;
+    }
+
+html
+    /* html background code borrowed from http://css-tricks.com/perfect-full-page-background-image/*/
+    /* background image borrowed from http://digital-photography-school.com/27-black-and-white-landscape-images/*/
+    { 
+    background: url('images/gradient-background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    }
+
+nav
+    {     
+	padding:10px;
+	letter-spacing: -3px;
+	text-align:center;
+	font-family: '7 days oblique';
+    max-width: 980px;
+    margin-left:  auto;
+    margin-right: auto;  
+    width: auto;  
+    }
+
+
+footer
+    {     
+	background-color:lightgrey;
+	min-width: 10em;
+    max-width: 53em;
+    padding:8px;
+	margin-left:auto;
+	margin-right: auto;
+    text-align: center;
+    font-family: OpenSans-Regular;
+    width: auto;
+    }
+
+form p
+    {
+    line-height: 1.4em;
+    
+    }
+
+ .fTitle
+    {
+    float:left;
+    width: 8em;
+    text-align: left;
+    }
+
+.fTitle2
+    {
+    float:right;
+    text-align: left;
+	}
+	
+.submit
+	{
+	float:left;
+	text-align: left;
+	display:none;
+	}
+	
+.tickets
+    {
+    text-align: left;
+    }
